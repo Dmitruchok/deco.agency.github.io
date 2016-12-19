@@ -42,6 +42,15 @@
           margin-left: 8px;
         }
       }
+
+      &:hover .bold {
+        cursor: pointer;
+        color: #a70c5d;
+      }
+
+      &:hover p:before {
+        background-position: 0 0;
+      }
     }
 
     .recall-center {
@@ -60,10 +69,6 @@
           height: 50px;
           display: block;
         }
-        &:hover {
-          cursor: pointer;
-          color: #a70c5d;
-        }
       }
 
       .foot-link {
@@ -78,6 +83,15 @@
           color: #3f4147;
           margin-left: 8px;
         }
+      }
+
+      &:hover .bold {
+        cursor: pointer;
+        color: #a70c5d;
+      }
+
+      &:hover p:before {
+        background-position: 0 0;
       }
     }
 
@@ -95,10 +109,6 @@
         display: block;
       }
 
-      &:hover::before {
-        background-position: 0 -68px;
-      }
-
       .foot-link {
         display: flex;
         margin-top: 15px;
@@ -111,6 +121,15 @@
           color: #3f4147;
           margin-left: 8px;
         }
+      }
+
+      &:hover::before {
+        cursor: pointer;
+        background-position: 0 -68px;
+      }
+
+      &:hover {
+        cursor: pointer;
       }
     }
   }

@@ -15,18 +15,19 @@
           width: 41px;
           height: 41px;
           background-position: 0 -574px;
-          &:hover {
-            background-position: 0 -528px;
-          }
         }
         h3 {
           font-family: 'GothaProBol';
         }
         .icin-right {
           @include icon-right;
-          &:hover {
-            background-position: 0 -100px;
-          }
+        }
+
+        &:hover .icin-right {
+          background-position: 0 -100px;
+        }
+        &:hover .icin-left {
+          background-position: 0 -528px;
         }
       }
 
@@ -52,9 +53,6 @@
         .icin-left {
           @include icon-left;
             background-position: 0 -761px;
-          &:hover {
-            background-position: 0 -714px;
-          }
         }
         h3 {
           text-align: center;
@@ -62,9 +60,13 @@
         }
         .icin-right {
           @include icon-right;
-          &:hover {
-            background-position: 0 -100px;
-          }
+        }
+
+        &:hover .icin-right {
+          background-position: 0 -100px;
+        }
+        &:hover .icin-left {
+          background-position: 0 -714px;
         }
       }
 
@@ -88,9 +90,6 @@
         .icin-left {
           @include icon-left;
           background-position: 0 -169px;
-          &:hover {
-            background-position: 0 -213px;
-          }
         }
         h3 {
           font-family: 'GothaProBol';
@@ -99,9 +98,13 @@
         }
         .icin-right {
           @include icon-right;
-          &:hover {
-            background-position: 0 -100px;
-          }
+        }
+
+        &:hover .icin-right {
+          background-position: 0 -100px;
+        }
+        &:hover .icin-left {
+          background-position: 0 -213px;
         }
       }
       ul {
@@ -122,9 +125,6 @@
         .icin-left {
           @include icon-left;
             background-position: 0 -620px;
-          &:hover {
-            background-position: 0 -667px;
-          }
         }
         h3 {
           font-family: 'GothaProBol';
@@ -133,11 +133,14 @@
         }
         .icin-right {
           @include icon-right;
-          &:hover {
-            background-position: 0 -100px;
-          }
         }
 
+        &:hover .icin-right {
+          background-position: 0 -100px;
+        }
+        &:hover .icin-left {
+          background-position: 0 -667px;
+        }
       }
 
       p {
