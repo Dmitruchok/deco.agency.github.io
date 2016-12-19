@@ -1114,7 +1114,7 @@ The `sprites` mixin generates identical output to the CSS template
       outline: none;
       border: none; } }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   body {
     font-family: 'GothaProBla';
     font-size: 15px;
@@ -1575,17 +1575,24 @@ The `sprites` mixin generates identical output to the CSS template
         background-position: 0 -483px; }
         footer .foot-links .in:hover {
           background-position: 0 -258px; }
-  header .header-links ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-    header .header-links ul .links-logo {
-      margin-right: 155px;
-      display: block; }
-  header .header-links input {
-    margin-left: 75px; }
+  header .header-links {
+    width: 80%; }
+    header .header-links ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      header .header-links ul .links-logo {
+        margin-right: 50px;
+        display: block; }
+    header .header-links input {
+      margin-left: 75px; }
   header .header-text {
+    width: 80%;
     margin: 90px auto 20px; }
     header .header-text h2 {
       width: 25%; }
@@ -1614,7 +1621,9 @@ The `sprites` mixin generates identical output to the CSS template
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    width: 90%;
+    margin: 0 auto; }
     .recall .recall-box .recall-left {
       width: 235px; }
     .recall .recall-box .recall-center {
@@ -1632,9 +1641,7 @@ The `sprites` mixin generates identical output to the CSS template
     display: flex; }
     .request .request-form .input-form {
       width: 390px;
-      margin: 0;
-      margin-left: 100px;
-      text-align: center; }
+      margin: 0 30px auto auto; }
       .request .request-form .input-form form input {
         width: 385px;
         height: 50px; }
@@ -1644,8 +1651,7 @@ The `sprites` mixin generates identical output to the CSS template
           cursor: pointer; }
     .request .request-form .area-form {
       text-align: left;
-      margin: 0;
-      margin-left: 50px; }
+      margin: 0 auto auto 30px; }
       .request .request-form .area-form textarea {
         width: 300px;
         height: 255px; } }

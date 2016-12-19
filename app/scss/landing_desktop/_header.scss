@@ -1,11 +1,12 @@
 header {
 
   .header-links {
-
+      width: 80%;
     ul {
         display: flex;
+        justify-content: space-between;
         .links-logo {
-          margin-right: 155px;
+          margin-right: 50px;
           display: block;
           }
       }
@@ -16,6 +17,7 @@ header {
     }
 
   .header-text {
+    width: 80%;
     margin: 90px auto 20px;
     h2 {
       width: 25%;

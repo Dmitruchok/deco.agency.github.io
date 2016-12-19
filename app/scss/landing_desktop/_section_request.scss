@@ -5,9 +5,7 @@
     display: flex;
     .input-form {
       width: 390px;
-      margin: 0;
-      margin-left: 100px;
-      text-align: center;
+      margin: 0 30px auto auto;
       form {
         input {
           width: 385px;
@@ -25,8 +23,7 @@
 
     .area-form {
       text-align: left;
-      margin: 0;
-      margin-left: 50px;
+      margin: 0 auto auto 30px;
       textarea {
         width: 300px;
         height: 255px;
