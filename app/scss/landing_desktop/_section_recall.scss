@@ -1,0 +1,28 @@
+@import "../scss/_mixins";
+
+.recall {
+  .recall-box {
+    display: flex;
+    .recall-left {
+      width: 235px;
+    }
+
+    .recall-center {
+      width: 235px;
+    }
+
+    .recall-right {
+      width: 245px;
+      img {
+        width: 245px;
+      }
+
+      .foot-link {
+        margin-top: 22px;
+      }
+    }
+  }
+
+  .foot-recall {
+  }
+}

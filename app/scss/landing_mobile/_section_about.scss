@@ -1,0 +1,148 @@
+@import "../scss/_mixins";
+
+.about {
+  border-bottom: 1px solid #dfdfe2;
+  .about-one {
+    .about-deal {
+      width: 390px;
+      margin: 0 auto;
+
+      .deal-head {
+        display: flex;
+        justify-content: space-between;
+        .icin-left {
+          @include icon-left;
+          width: 41px;
+          height: 41px;
+          background-position: 0 -574px;
+          &:hover {
+            background-position: 0 -528px;
+          }
+        }
+        h3 {
+          font-family: 'GothaProBol';
+        }
+        .icin-right {
+          @include icon-right;
+          &:hover {
+            background-position: 0 -100px;
+          }
+        }
+      }
+
+      p {
+        margin-left: 40px;
+      }
+
+      ul {
+        margin-left: 55px;
+        padding: 0;
+        li {
+          list-style-image: url('../img/listStyle.png');
+        }
+      }
+    }
+    .about-relations {
+      width: 390px;
+      margin: 0 auto;
+
+      .relations-head {
+        display: flex;
+        justify-content: space-between;
+        .icin-left {
+          @include icon-left;
+            background-position: 0 -761px;
+          &:hover {
+            background-position: 0 -714px;
+          }
+        }
+        h3 {
+          text-align: center;
+          font-family: 'GothaProBol';
+        }
+        .icin-right {
+          @include icon-right;
+          &:hover {
+            background-position: 0 -100px;
+          }
+        }
+      }
+
+      ul {
+        margin-left: 55px;
+        padding: 0;
+        li {
+          list-style-image: url('../img/listStyle.png');
+        }
+      }
+    }
+  }
+
+  .about-two {
+    .about-accompaniment {
+      width: 390px;
+      margin: 0 auto;
+      .accompaniment-head {
+        display: flex;
+        justify-content: space-between;
+        .icin-left {
+          @include icon-left;
+          background-position: 0 -169px;
+          &:hover {
+            background-position: 0 -213px;
+          }
+        }
+        h3 {
+          font-family: 'GothaProBol';
+          text-align: center;
+          width: 265px;
+        }
+        .icin-right {
+          @include icon-right;
+          &:hover {
+            background-position: 0 -100px;
+          }
+        }
+      }
+      ul {
+        margin-left: 55px;
+        padding: 0;
+        li {
+          list-style-image: url('../img/listStyle.png');
+        }
+      }
+
+    }
+    .about-document {
+      width: 390px;
+      margin: 0 auto;
+      .document-head {
+        display: flex;
+        justify-content: space-between;
+        .icin-left {
+          @include icon-left;
+            background-position: 0 -620px;
+          &:hover {
+            background-position: 0 -667px;
+          }
+        }
+        h3 {
+          font-family: 'GothaProBol';
+          text-align: center;
+          width: 265px;
+        }
+        .icin-right {
+          @include icon-right;
+          &:hover {
+            background-position: 0 -100px;
+          }
+        }
+
+      }
+
+      p {
+        margin-left: 45px;
+      }
+    }
+  }
+}

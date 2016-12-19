@@ -1,0 +1,31 @@
+@import "../scss/_mixins";
+
+.recall {
+
+  .recall-box {
+    .recall-left {
+      width: 500px;
+    }
+
+    .recall-center {
+      width: 500px;
+    }
+
+    .recall-right {
+      width: 500px;
+    }
+  }
+
+  .foot-recall {
+    margin-top: 30px;
+    text-align: center;
+    input {
+      background: url('../img/reload.png') no-repeat;
+      background-color: #fff;
+      background-position: left center;
+      padding: 7px 10px 7px 25px;
+      outline: none;
+      border: none;
+    }
+  }
+}

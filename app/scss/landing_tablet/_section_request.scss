@@ -1,0 +1,21 @@
+@import "../scss/_mixins";
+
+.request {
+  .request-form {
+    .input-form {
+      width: 400px;
+      form {
+        margin-bottom: 40px;
+        input {
+          width: 400px;
+        }
+      }
+    }
+
+    .area-form {
+      textarea {
+        width: 390px;
+      }
+    }
+  }
+}

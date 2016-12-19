@@ -1,0 +1,33 @@
+@import "../scss/_mixins";
+
+.about {
+  .about-one {
+    .about-deal {
+      width: 600px;
+      ul {
+        width: 500px;
+      }
+    }
+    .about-relations {
+      width: 600px;
+      ul {
+        width: 500px;
+      }
+    }
+  }
+
+  .about-two {
+    .about-accompaniment {
+      width: 600px;
+      ul {
+        width: 500px;
+      }
+    }
+    .about-document {
+      width: 600px;
+      p {
+        width: 500px;
+      }
+  }
+}
+}

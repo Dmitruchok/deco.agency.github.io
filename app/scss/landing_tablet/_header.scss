@@ -1,0 +1,18 @@
+header {
+
+// @media (-webkit-min-device-pixel-ratio: 2) {
+// header {
+//   background-image: url('../img/desktopbg@2x.png');
+//   background-size: cover;
+//   }
+// }
+
+.header-links {
+  ul {
+    display: flex;
+    li {
+      width: 18%;
+    }
+  }
+}
+}

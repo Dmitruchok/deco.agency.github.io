@@ -1,0 +1,130 @@
+@import "../scss/_mixins";
+
+.recall {
+  padding-bottom: 50px;
+  .head-recall {
+    text-align: center;
+    h2 {
+      font-family: 'GothaProBol';
+      &::after {
+        content: url('../img/line.png');
+        display: block;
+      }
+    }
+    p {
+
+    }
+  }
+
+  .recall-box {
+    .recall-left {
+      width: 390px;
+      margin: 0 auto;
+      p {
+        @include recall-before;
+        margin-bottom: 35px;
+      }
+
+      .bold {
+        @include recall-bold;
+      }
+
+      .foot-link {
+        display: flex;
+        margin-top: 15px;
+        span {
+          background: url('../img/point.png') no-repeat;
+          background-position: right center;
+          width: 40px;
+        }
+        a {
+          color: #3f4147;
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .recall-center {
+      width: 390px;
+      margin: 0 auto;
+      p {
+        @include recall-before;
+        margin-bottom: 35px;
+      }
+
+      .bold {
+        &::before {
+          content: '';
+          background-image: url("../img/centerPhoto.png");
+          width: 50px;
+          height: 50px;
+          display: block;
+        }
+        &:hover {
+          cursor: pointer;
+          color: #a70c5d;
+        }
+      }
+
+      .foot-link {
+        display: flex;
+        margin-top: 15px;
+        span {
+          background: url('../img/point.png') no-repeat;
+          background-position: right center;
+          width: 40px;
+        }
+        a {
+          color: #3f4147;
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .recall-right {
+      margin: 0 auto;
+      margin-top: 15px;
+      width: 390px;
+      &::before {
+        content: '';
+        background-image: url('../img/sprites/sprite.png');
+        background-position: 0 -38px;
+        height: 30px;
+        width: 30px;
+        margin-bottom: 15px;
+        display: block;
+      }
+
+      &:hover::before {
+        background-position: 0 -68px;
+      }
+
+      .foot-link {
+        display: flex;
+        margin-top: 15px;
+        span {
+          background: url('../img/point.png') no-repeat;
+          background-position: right center;
+          width: 40px;
+        }
+        a {
+          color: #3f4147;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  .foot-recall {
+    margin-top: 30px;
+    text-align: center;
+    input {
+      background: url('../img/reload.png') no-repeat;
+      background-color: #fff;
+      background-position: left center;
+      padding: 7px 10px 7px 25px;
+      outline: none;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+header {
+  background-image: url('../img/hbg.png');
+  background-position: center;
+  background-size: cover;
+  font-family: 'GothaProMed';
+  padding-bottom: 40px;
+
+  .header-links {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    ul {
+        align-items: center;
+        padding: 0;
+        margin: 0;
+      .links-logo::after {
+        content: url('../img/Logo.png');
+        display: block;
+        width: 300px;
+        margin: 10px;
+      }
+      li {
+        list-style: none;
+        padding-right: 20px;
+        padding-left: 10px;
+        display: inline-block;
+        a {
+          color: #3f4147;
+          text-decoration: none;
+          font-size: 12px;
+          font-weight: bold;
+          &:hover {
+            color: #a70c5d;
+          }
+        }
+      }
+
+      input {
+        background-image: url('../img/Ellipse.png');
+        background-repeat: no-repeat;
+        background-size: 14px;
+        background-position: 10% 50%;
+        border: 1px solid #dfdfe2;
+        padding: 7px 10px 7px 25px;
+        border-radius: 14px;
+        color: #a70c5d;
+        font-size: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .header-text {
+    width: 90%;
+    margin: 0 auto;
+    color: #454545;
+    h2 {
+    font-family: 'GothaProBol';
+    }
+    p {
+      width: 265px;
+    }
+    input {
+    background-image: url('../img/Vector.png');
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    background-color: #a70c5d;
+    outline: none;
+    border: none;
+    padding: 12px 15px 12px 45px;
+    border-radius: 20px;
+    color: #fff;
+    }
+  }
+}

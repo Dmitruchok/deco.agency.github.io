@@ -1,0 +1,37 @@
+header {
+
+  .header-links {
+
+    ul {
+        display: flex;
+        .links-logo {
+          margin-right: 155px;
+          display: block;
+          }
+      }
+
+      input {
+        margin-left: 75px;
+      }
+    }
+
+  .header-text {
+    margin: 90px auto 20px;
+    h2 {
+      width: 25%;
+    }
+    p {
+      width: 375px;
+    }
+    input {
+      margin-top: 50px;
+    }
+  }
+
+// @media (-webkit-min-device-pixel-ratio: 2) {
+// header {
+//   background-image: url('../img/desktopbg@2x.png');
+//   background-size: cover;
+//   }
+// }
+}

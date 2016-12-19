@@ -1,0 +1,19 @@
+@import "../scss/_mixins";
+
+.about {
+  .about-one {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px dashed #dfdfe2;
+    .about-deal {
+      .deal-head {
+      }
+    }
+
+  }
+
+  .about-two {
+    display: flex;
+    padding: 20px 0;
+  }
+}
